@@ -11,7 +11,7 @@ function Example () {
         <div className = "Card">
           <p>Rock Paper Scissors</p>
           <img src = {RockPaperScissors} className = "CardImage"></img>
-          <a href = "https://github.com/ishmanbahrha/GitHub/tree/main/Rock%20Paper%20Scissors" target = "_blank">
+          <a href = "https://github.com/ishmanbahrha/Rock-Paper-Scissors" target = "_blank">
             <button className = "GitButton">GitHub</button>
           </a>
         </div>
