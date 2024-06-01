@@ -1,0 +1,296 @@
+
+h4 {
+  padding-top : 40px;
+}
+
+.Title {
+  font-family : Collingar;
+  font-size : 40px;
+  text-align : center;
+  font-weight : bold;
+}
+
+/* *** NAVBAR *** */
+
+.navText {
+  color : grey;
+}
+
+.dropdownLi {
+  color : grey;
+  font-family : Arial;
+  font-size : 16px;
+}
+
+.About {
+  font-family: Arial;
+  font-size: 22px;
+  text-align: center;
+}
+
+.Header {
+  color: pink;
+  font-family: Twinkle Diamond;
+  font-size : 80px;
+  /* background : rgb(237, 190, 201, 0.5); */
+  margin : 30px;
+  border-radius : 100px;
+  text-align : center;
+  text-shadow: 2px 2px 0  black;
+
+}
+
+.Icons {
+  height: 60px;
+  width: 60px;
+}
+
+.contactButtons {
+  border : none;
+  border-radius : 100px;
+  background-color : pink;
+	height : 100px;
+	width : 71px;
+	margin : 1em;
+	cursor : pointer;
+  box-shadow : -1px 2px 3px  grey;
+}
+
+.contactButtons:hover {
+  background : #ffdfe5;
+}
+
+.Contact {
+  margin-top: 20px;
+  text-align: center;
+  position : relative;
+}
+
+.callPopup {
+  height : 250px;
+  width : 400px;
+  padding-top : 7%;
+  padding-right : 20px;
+  border : 1px solid  black;
+  border-radius : 1em;
+  position: fixed;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the element */ 
+  z-index: 1000;
+  background-color: rgb(237, 234, 234);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.close {
+  color: #312d2d;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.AvatarBg {
+  background-color : white; 
+  border-radius : 300px;
+  width : 300px;
+  height : 300px;
+  margin : auto;
+  margin-top : 50px;
+  overflow : hidden;
+}
+
+.Avatar {
+  object-fit : contain;
+  height : 325px;
+  width : 325px;
+  object-position: center;
+}
+
+/* *** Work Experience *** */
+.Work {
+  text-align : center;
+  font-family : Arial;
+  font-size : 20px;
+  /* margin : 50px; */
+}
+
+.workSummary {
+  /* border : 1px solid black; */
+  font-family : Arial;
+  font-size : 20px;
+  text-align : center;
+  margin : 2em 7em 0 7em;
+  padding : 1em; 
+}
+
+/* *** RESUME *** */
+
+.resumeDownload:link {
+  /* position : absolute; */
+  z-index : 110;
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  background-color : pink;
+  border-radius : 110px;
+  margin : 36%;
+  font-family : Cochin;
+  font-size : 30px;
+  padding : 20px;
+  box-shadow : -2px 2px 3px  grey;
+ 
+}
+.resumeDownload:visited {
+  color: #988cbd;
+  background-color: transparent;
+  text-decoration: none;
+}
+.resumeDownload:hover {
+  color: black;
+  background-color: transparent;
+  background-color : #ffdfe5;
+  box-shadow : 0px 4px 4px  grey;
+}
+
+/* *** PROJECTS *** */
+.Card {
+  height : 350px;
+  width : 30%;
+  background-color : white;
+  margin : 2em;
+  border-radius : 2rem;
+  text-align : center;
+  font-family : Arial;
+  overflow : hidden;
+  font-size : 20px;
+  padding-top : 30px;
+}
+
+.Card:hover {
+  background : transparent;
+  box-shadow : 0px 0px 7px grey;
+}
+
+.CardImage {
+  object-fit : contain;
+  height : 50%;
+  border-radius : 1.5rem;
+}
+
+.GitButton {
+  height : 50px;
+  width : 80px;
+  margin-top : 2rem;
+  cursor : pointer;
+  font-size : 20px;
+  border-radius : 0.8rem;
+  background-color : pink;
+  border : none;
+  box-shadow : -1px 2px 3px  grey;
+
+}
+
+.GitButton:hover {
+  box-shadow : -2px 2px 3px  grey;
+
+}
+
+/* *** SKILLS *** */
+.skillTitle {
+  font-family : Collingar;
+  font-size : 40px;
+  font-weight : bold;
+  text-align : left;
+  border : none;
+  margin-left : 80px;
+  margin-top : 2em;
+}
+
+.skillIcon {
+  height : 100px;
+  width : 100px;
+  margin-left : 10px;
+}
+
+.skillListing {
+  font-family : Arial;
+  display : grid;
+  grid-template-columns : 1fr 1fr;
+  gap : 1rem;
+  padding : 5%;
+}
+
+.card:hover {
+  transform: translate3D(0,-1px,0) scale(1.03);
+}
+
+/* *** EDUCATION *** */
+.eduCards {
+  height : 250px;
+  width : 900px;
+  text-align : center;
+  background-color : transparent;
+  font-family : Arial;
+  margin-bottom : 100px;
+}
+
+.title {
+  font-family : Arial;
+  font-size : 75px;
+  font-weight : bold;
+  z-index : 100;
+  position : absolute;
+  margin-top : 75px;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: pink;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* *** OVERLAY *** */
+.overlayText {
+  font-family : Arial;
+  font-size : 200px;
+  font-weight : bold;
+  z-index : 1;
+  color :rgba(139, 139, 139, 0.2);
+}
+
+/* Slide from left to right - for LEFT placed titles */
+.animationLR {
+  animation-timeline: view();
+  animation-name: slide-right;
+  animation-duration: 1ms; 
+  transform:translateX(-100%);
+}
+@keyframes slide-right {
+  to {
+    transform:translateX(5%);
+  }
+}
+
+/* Slide from right to left - for RIGHT placed titles */
+.animationRL {
+  animation-timeline: view();
+  animation-name: slide-left;
+  animation-duration: 1ms; 
+  transform:translateX(100%);
+}
+@keyframes slide-left {
+  to {
+    transform:translateX(-5%);
+  }
+}
