@@ -67,18 +67,18 @@ h4 {
 }
 
 .callPopup {
-  height : 250px;
-  width : 400px;
+  font-family : Arial;
+  height : 220px;
+  width : 450px;
   padding-top : 7%;
   padding-right : 20px;
-  border : 1px solid  black;
-  border-radius : 1em;
+  border-radius : 0.4em;
   position: fixed;
   top: 50%; /* Center vertically */
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Center the element */ 
   z-index: 1000;
-  background-color: rgb(237, 234, 234);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .overlay {
@@ -94,8 +94,10 @@ h4 {
 .close {
   color: #312d2d;
   float: right;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
+  border : none;
+  background-color : rgb(207, 202, 203);
 }
 
 .AvatarBg {
