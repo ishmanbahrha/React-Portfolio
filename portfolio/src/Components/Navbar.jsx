@@ -38,6 +38,10 @@ function BasicExample() {
                     </li>
 
                     <li className="nav-item">
+                    <a className="nav-link navText" href="#scrollspyHeading7">Education</a>
+                    </li>
+
+                    <li className="nav-item">
                     <a className="nav-link navText" href="#scrollspyHeading7">Projects</a>
                     </li>
 
@@ -50,7 +54,7 @@ function BasicExample() {
                             <li><a className="dropdown-item" href="#scrollspyHeading5">Skills</a></li>
                             <li><a className="dropdown-item" href="#scrollspyHeading6">Projects</a></li> */}
                             <li><a className="dropdown-item dropdownLi" href="#scrollspyHeading4">Resume</a></li>
-                            <li><a className="dropdown-item dropdownLi" href="#scrollspyHeading6">Education</a></li>
+                            {/* <li><a className="dropdown-item dropdownLi" href="#scrollspyHeading6">Education</a></li> */}
                         </ul>
                     </li>
                 </ul>
