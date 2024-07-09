@@ -14,7 +14,7 @@ function CarouselFadeExample() {
         <img className = "imageFade" src = {Paint} alt="First slide"/>
         <Carousel.Caption style = {{color:"black"}}>
           <h3>Bachelor of Technology | B.Tech</h3>
-          <p>2017-2021</p>
+          <p>2017 - 2021</p>
         </Carousel.Caption>
       </Carousel.Item>
 
